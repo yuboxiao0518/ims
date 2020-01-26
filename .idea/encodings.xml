@@ -2,15 +2,11 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/ims-common/ims-common-core/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ims-common/ims-common-core/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ims-common/ims-common-log/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ims-common/ims-common-log/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ims-manage/ims-manage-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ims-manage/ims-manage-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ims-project/ims-project-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ims-project/ims-project-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ims-project/ims-project-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources" charset="UTF-8" />
   </component>

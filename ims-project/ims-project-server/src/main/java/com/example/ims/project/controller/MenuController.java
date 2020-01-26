@@ -26,6 +26,8 @@ import com.example.ims.project.service.SysMenuService;
 import com.example.ims.project.vo.MenuVO;
 import com.example.ims.project.vo.TreeUtil;
 import lombok.AllArgsConstructor;
+import org.springframework.amqp.core.AmqpTemplate;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -45,9 +47,14 @@ import java.util.stream.Collectors;
 public class MenuController {
 	private final SysMenuService sysMenuService;
 
+	private final AmqpTemplate amqpTemplate;
+
+	private final RabbitTemplate rabbitTemplate;
+
 	@GetMapping("/queryMenu")
 	public R queryMenu(){
 		List<MenuVO> menuVOS = sysMenuService.queryMenu();
+		amqpTemplate.convertAndSend("myQueues","发送成功");
 		return R.ok(menuVOS);
 	}
 
