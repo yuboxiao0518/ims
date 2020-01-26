@@ -37,6 +37,7 @@ import javax.validation.Valid;
 @AllArgsConstructor
 @RequestMapping("/log")
 public class LogController {
+
 	private final SysLogService sysLogService;
 
 	/**
