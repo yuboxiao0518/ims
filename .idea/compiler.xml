@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ims-project-api" />
+        <module name="ims-manage-server" />
+        <module name="ims-manage-api" />
+        <module name="ims-common-log" />
+        <module name="ims-common-core" />
+        <module name="ims-project-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="ims" target="1.8" />
+      <module name="ims-common" target="1.8" />
+      <module name="ims-common-core" target="1.8" />
+      <module name="ims-common-log" target="1.8" />
+      <module name="ims-common-security" target="1.8" />
+      <module name="ims-manage" target="1.8" />
+      <module name="ims-manage-api" target="1.8" />
+      <module name="ims-manage-server" target="1.8" />
+      <module name="ims-project" target="1.8" />
+      <module name="ims-project-api" target="1.8" />
+      <module name="ims-project-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ims" options="" />
+      <module name="ims-common" options="" />
+      <module name="ims-common-core" options="" />
+      <module name="ims-common-log" options="" />
+      <module name="ims-common-security" options="" />
+      <module name="ims-project" options="" />
+      <module name="ims-project-api" options="" />
+      <module name="ims-project-server" options="" />
+    </option>
+  </component>
+</project>

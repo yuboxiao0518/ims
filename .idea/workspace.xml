@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29a9199b-8a65-4fcd-850a-fac5676535bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4241ad68-5c63-4d55-80c5-37ae23ea7947.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4241ad68-5c63-4d55-80c5-37ae23ea7947/storage_v2/_src_/schema/demoboot.VY8VMw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4241ad68-5c63-4d55-80c5-37ae23ea7947/storage_v2/_src_/schema/demoboot.VY8VMw.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4241ad68-5c63-4d55-80c5-37ae23ea7947/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4241ad68-5c63-4d55-80c5-37ae23ea7947/storage_v2/_src_/schema/sakila.oXLGyQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4241ad68-5c63-4d55-80c5-37ae23ea7947/storage_v2/_src_/schema/sakila.oXLGyQ.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4241ad68-5c63-4d55-80c5-37ae23ea7947/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4241ad68-5c63-4d55-80c5-37ae23ea7947/storage_v2/_src_/schema/sys.zb4BAA.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_nacos_config_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_nacos_discovery_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_config_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_discovery_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_1_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__p6spy_p6spy_3_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-core/ims-common-core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-core/src/main/java/com/example/ims/common/core/config/RedisTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-core/src/main/java/com/example/ims/common/core/constant/CommonConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-core/src/main/java/com/example/ims/common/core/constant/SecurityConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-core/src/main/java/com/example/ims/common/core/constant/ServiceNameConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-core/src/main/java/com/example/ims/common/core/util/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-core/target/classes/com/example/ims/common/core/config/RedisTemplateConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-core/target/classes/com/example/ims/common/core/constant/CommonConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-core/target/classes/com/example/ims/common/core/constant/SecurityConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-core/target/classes/com/example/ims/common/core/constant/ServiceNameConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-core/target/classes/com/example/ims/common/core/util/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-log/ims-common-log.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-log/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-log/src/main/java/com/example/ims/common/log/annotation/SysLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-log/target/classes/com/example/ims/common/log/annotation/SysLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-common/ims-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-api/ims-manage-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-api/src/main/java/com/example/ims/manage/api/entity/TMdMeeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-api/target/classes/com/example/ims/manage/api/entity/TMdMeeting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/ims-manage-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/ManageApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/config/ManageMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/config/MeetingFeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/controller/MeetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/mapper/MeetingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/service/MeetingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/service/impl/MeetingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/resources/spy.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/com/example/ims/manage/ManageApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/com/example/ims/manage/config/ManageMetaObjectHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/com/example/ims/manage/config/MeetingFeignConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/com/example/ims/manage/controller/MeetingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/com/example/ims/manage/mapper/MeetingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/com/example/ims/manage/service/MeetingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/com/example/ims/manage/service/impl/MeetingServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/spy.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/ims-project-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/config/ProjectFeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysDept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysDeptRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysDict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysOauthClientDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysRoleDept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysRoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/feign/RemoteMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/feign/RemoteUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/feign/factory/RemoteMenuServiceFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/feign/factory/RemoteUserServiceFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/feign/fallback/RemoteMenuServiceFallbackImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/feign/fallback/RemoteUserServiceFallbackImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/test/java/com/example/ims/project/api/feign/RemoteUserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/config/ProjectFeignConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysDept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysDeptRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysDict.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysOauthClientDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysRoleDept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysRoleMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/feign/RemoteMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/feign/RemoteUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/feign/factory/RemoteMenuServiceFallbackFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/feign/factory/RemoteUserServiceFallbackFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/feign/fallback/RemoteMenuServiceFallbackImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/feign/fallback/RemoteUserServiceFallbackImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/test-classes/com/example/ims/project/api/feign/RemoteUserServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/ims-project-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/ImsProjectApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/ConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/DictController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/LogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/OauthClientDetailsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/dto/DeptTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/dto/MenuTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/dto/RoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/dto/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/dto/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/mapper/SysDeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/mapper/SysDeptRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/mapper/SysDictMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/mapper/SysLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/mapper/SysMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/mapper/SysOauthClientDetailsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/mapper/SysRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/mapper/SysRoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/mapper/SysUserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/SysDeptRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/SysDeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/SysDictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/SysLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/SysMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/SysOauthClientDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/SysRoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/SysRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/SysUserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/impl/SysDeptRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/impl/SysDeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/impl/SysDictServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/impl/SysLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/impl/SysOauthClientDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/vo/ImageCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/vo/LogVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/vo/MenuVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/vo/TreeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/vo/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/com/example/ims/project/mapper/SysDeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/com/example/ims/project/mapper/SysDeptRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/com/example/ims/project/mapper/SysDictMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/com/example/ims/project/mapper/SysLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/com/example/ims/project/mapper/SysMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/com/example/ims/project/mapper/SysOauthClientDetailsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/com/example/ims/project/mapper/SysRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/com/example/ims/project/mapper/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/com/example/ims/project/mapper/SysUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/spy.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/ImsProjectApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/ConfigController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/DeptController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/DictController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/LogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/MenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/OauthClientDetailsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/RoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/dto/DeptTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/dto/MenuTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/dto/RoleDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/dto/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/dto/UserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/dto/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysDeptMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysDeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysDeptRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysDeptRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysDictMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysDictMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysOauthClientDetailsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysOauthClientDetailsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysRoleMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysUserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/SysDeptRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/SysDeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/SysDictService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/SysLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/SysMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/SysOauthClientDetailsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/SysRoleMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/SysRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/SysUserRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/SysUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/impl/SysDeptRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/impl/SysDeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/impl/SysDictServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/impl/SysLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/impl/SysMenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/impl/SysOauthClientDetailsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/impl/SysRoleMenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/impl/SysRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/impl/SysUserRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/vo/ImageCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/vo/LogVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/vo/MenuVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/vo/TreeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/vo/UserVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/spy.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/ims-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-project/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/manage-Server/2020-01/debug.2020-01-20.0.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/manage-Server/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/manage-Server/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/project-Server/2020-01/debug.2020-01-19.0.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/project-Server/2020-01/debug.2020-01-20.0.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/project-Server/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/project-Server/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="234" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="pig: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ims" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1W0GgQzANTTXW3uPmF0LDHAZhj4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.ims.project.api.feign" />
+      <recent name="com.example.ims.project.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\openproject\ims\ims-manage\ims-manage-server\src\main\resources" />
+      <recent name="D:\openproject\ims\ims-project\ims-project-server\src\main\resources" />
+      <recent name="D:\openproject\ims\ims-project\ims-project-api\src\main\java" />
+      <recent name="D:\openproject\ims\ims-project\ims-project-server\src\main\java" />
+      <recent name="D:\openproject\ims\ims-project\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.ims.common.core.config" />
+      <recent name="com.example.ims.common.security.annotation" />
+      <recent name="com.example.ims.common.security.service" />
+      <recent name="com.example.ims.common.security.util" />
+      <recent name="com.example.ims.common.log.annotation" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.imsproject.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ImsProjectApplication (3)">
+    <configuration name="MenuControllerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ims-project-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ims.project.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ims.project.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ims.project.controller.MenuControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoteUserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ims-project-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ims.project.api.feign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ims.project.api.feign" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ims.project.api.feign.RemoteUserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoteUserServiceTest.info" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ims-project-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ims.project.api.feign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ims.project.api.feign" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ims.project.api.feign.RemoteUserServiceTest" />
+      <option name="METHOD_NAME" value="info" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ims" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ims.ImsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImsCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ims-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.imscommon.ImsCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImsProjectApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ims-project-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ims.project.app.ImsProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImsProjectApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ims-project-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ims.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ims.project.ImsProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImsProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ims-project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.imsproject.ImsProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImsRegisterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ims-register" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.imsregister.ImsRegisterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ims-manage-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ims.manage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ims.manage.ManageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ImsProjectApplication (3)" />
+        <item itemvalue="Spring Boot.ManageApplication" />
+        <item itemvalue="JUnit.RemoteUserServiceTest" />
+        <item itemvalue="JUnit.RemoteUserServiceTest.info" />
+        <item itemvalue="JUnit.MenuControllerTest (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29a9199b-8a65-4fcd-850a-fac5676535bd" name="Default Changelist" comment="" />
+      <created>1578279209087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578279209087</updated>
+      <workItem from="1578279214430" duration="14849000" />
+      <workItem from="1578365103028" duration="4201000" />
+      <workItem from="1578378208507" duration="6959000" />
+      <workItem from="1578449789534" duration="2923000" />
+      <workItem from="1578555806388" duration="3282000" />
+      <workItem from="1578620691665" duration="9553000" />
+      <workItem from="1578901543569" duration="6973000" />
+      <workItem from="1578964350647" duration="1330000" />
+      <workItem from="1578965738138" duration="7757000" />
+      <workItem from="1579077693284" duration="5384000" />
+      <workItem from="1579140016736" duration="19381000" />
+      <workItem from="1579225590870" duration="20084000" />
+      <workItem from="1579396645244" duration="7505000" />
+      <workItem from="1579416781095" duration="8516000" />
+      <workItem from="1579484223994" duration="7008000" />
+      <workItem from="1579571003719" duration="576000" />
+      <workItem from="1579687654623" duration="491000" />
+      <workItem from="1580020388045" duration="593000" />
+      <workItem from="1580028328157" duration="248000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Notifications" timestamp="1579163925173">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1579163925173" />
+    <state x="361" y="74" key="#Project_Structure" timestamp="1579254670936">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1579254670936" />
+    <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579144931812">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1579144931812" />
+    <state x="511" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579143675018">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1579143675018" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1579253596565">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1579253596565" />
+    <state x="412" y="331" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578903429528">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="412" y="331" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1578903429528" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578557198394">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1578557198394" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1579417678708">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579417678708" />
+    <state x="593" y="327" width="373" height="170" key="Github.CreateGistDialog" timestamp="1580028456855">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="593" y="327" width="373" height="170" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1580028456855" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1579571579412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579571579412" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1579571579412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579571579412" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1579571579412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579571579412" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1579571579412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579571579412" />
+    <state width="1493" height="210" key="GridCell.Tab.1.bottom" timestamp="1579571579412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579571579412" />
+    <state width="1493" height="210" key="GridCell.Tab.1.center" timestamp="1579571579412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1579571579412" />
+    <state width="1493" height="210" key="GridCell.Tab.1.left" timestamp="1579571579412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1579571579412" />
+    <state width="1493" height="210" key="GridCell.Tab.1.right" timestamp="1579571579412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1579571579412" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1579431920076">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579431920076" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1579431920076">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1579431920076" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1579431920076">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1579431920076" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1579431920076">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1579431920076" />
+    <state x="299" y="71" key="Maven.ArtifactSearchDialog" timestamp="1578995274083">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="71" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1578995274083" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1579081583910">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579081583910" />
+    <state width="529" height="446" key="SwitcherDM" timestamp="1579571349835">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="529" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1579571349835" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1579416781085">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579416781085" />
+    <state x="790" y="143" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579241720377">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="790" y="143" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1579241720377" />
+    <state x="457" y="167" width="698" height="490" key="find.popup" timestamp="1579253907029">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="457" y="167" width="698" height="490" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1579253907029" />
+    <state x="298" y="140" key="new project wizard" timestamp="1579143315244">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="298" y="140" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1579143315244" />
+    <state x="472" y="45" key="refactoring.ChangeSignatureDialog" timestamp="1578903559521">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="472" y="45" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1578903559521" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1579571370174">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1579571370174" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ims$MenuControllerTest__1_.ic" NAME="MenuControllerTest (1) Coverage Results" MODIFIED="1578965344028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.ims.project.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ims$RemoteUserServiceTest.ic" NAME="RemoteUserServiceTest Coverage Results" MODIFIED="1579242624531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.ims.project.api.feign.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ims$RemoteUserServiceTest_info.ic" NAME="RemoteUserServiceTest.info Coverage Results" MODIFIED="1579242209056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.ims.project.api.feign.*</FILTER>
+    </SUITE>
+  </component>
+</project>

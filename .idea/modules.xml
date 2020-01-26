@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ims.iml" filepath="$PROJECT_DIR$/ims.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ims-common/ims-common.iml" filepath="$PROJECT_DIR$/ims-common/ims-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ims-common/ims-common-core/ims-common-core.iml" filepath="$PROJECT_DIR$/ims-common/ims-common-core/ims-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ims-common/ims-common-log/ims-common-log.iml" filepath="$PROJECT_DIR$/ims-common/ims-common-log/ims-common-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ims-manage/ims-manage.iml" filepath="$PROJECT_DIR$/ims-manage/ims-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ims-manage/ims-manage-api/ims-manage-api.iml" filepath="$PROJECT_DIR$/ims-manage/ims-manage-api/ims-manage-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ims-manage/ims-manage-server/ims-manage-server.iml" filepath="$PROJECT_DIR$/ims-manage/ims-manage-server/ims-manage-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ims-project/ims-project.iml" filepath="$PROJECT_DIR$/ims-project/ims-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ims-project/ims-project-api/ims-project-api.iml" filepath="$PROJECT_DIR$/ims-project/ims-project-api/ims-project-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ims-project/ims-project-server/ims-project-server.iml" filepath="$PROJECT_DIR$/ims-project/ims-project-server/ims-project-server.iml" />
+    </modules>
+  </component>
+</project>
