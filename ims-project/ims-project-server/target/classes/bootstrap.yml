@@ -29,39 +29,23 @@ spring:
       timeout: 5000
   profiles:
     active: dev
-  main:
-    allow-bean-definition-overriding: true
   rabbitmq:
     host: localhost
     port: 5672
     username: guest
     password: guest
-#
-## feign 配置
-#feign:
-#  hystrix:
-#    enabled: true
-#  okhttp:
-#    enabled: true
-#  httpclient:
-#    enabled: false
-#  client:
-#    config:
-#      default:
-#        connectTimeout: 10000
-#        readTimeout: 10000
-#  compression:
-#    request:
-#      enabled: true
-#    response:
-#      enabled: true
-## hystrix 配置
-#hystrix:
-#  command:
-#    default:
-#      execution:
-#        isolation:
-#          strategy: SEMAPHORE
-#          thread:
-#            timeoutInMilliseconds: 60000
-#  shareSecurityContext: true
+    publisher-confirm-type: correlated
+#  mvc:
+#    servlet:
+#      load-on-startup: 0 # 启动时立即初始化 dispatcherServlet，数值表示延迟多久进行自动初始化dispatcherServlet，0是立即初始化
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+#ribbon:
+#  eager-load:
+#    enabled: true   #开启饥饿加载 解决第一次feign调用失败的问题
+#    clients: project-Server            #需要饥饿加载的服务名称

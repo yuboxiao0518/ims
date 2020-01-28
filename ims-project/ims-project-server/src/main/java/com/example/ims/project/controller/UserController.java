@@ -46,8 +46,6 @@ public class UserController {
 	 */
 	@GetMapping(value = {"/info"})
 	public R info() {
-		String tt=null;
-		tt.toString();
 		SysUser user = userService.getOne(Wrappers.<SysUser>query()
 			.lambda().eq(SysUser::getUsername, "admin"));
 		if (user == null) {

@@ -10,7 +10,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringCloudApplication
 @EnableCaching
-@EnableFeignClients(basePackages = "com.example.ims")
+@EnableFeignClients
 @MapperScan("com.example.ims.project.mapper")
 public class ImsProjectApplication {
 

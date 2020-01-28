@@ -22,11 +22,15 @@ import com.example.ims.common.core.util.R;
 import com.example.ims.common.log.annotation.SysLog;
 import com.example.ims.project.api.entity.SysMenu;
 import com.example.ims.project.dto.MenuTree;
+import com.example.ims.project.service.CallBackSender;
 import com.example.ims.project.service.SysMenuService;
 import com.example.ims.project.vo.MenuVO;
 import com.example.ims.project.vo.TreeUtil;
+import com.rabbitmq.client.ConfirmCallback;
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.core.AmqpTemplate;
+import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.web.bind.annotation.*;
 
@@ -43,18 +47,17 @@ import java.util.stream.Collectors;
  */
 @RestController
 @AllArgsConstructor
+@Slf4j
 @RequestMapping("/menu")
 public class MenuController {
 	private final SysMenuService sysMenuService;
 
-	private final AmqpTemplate amqpTemplate;
-
-	private final RabbitTemplate rabbitTemplate;
+	private final CallBackSender callBackSender;
 
 	@GetMapping("/queryMenu")
 	public R queryMenu(){
 		List<MenuVO> menuVOS = sysMenuService.queryMenu();
-		amqpTemplate.convertAndSend("myQueues","发送成功");
+		callBackSender.sender("myExchange","key","查询系统菜单");
 		return R.ok(menuVOS);
 	}
 

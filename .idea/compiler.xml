@@ -7,9 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ims-project-api" />
-        <module name="ims-manage-server" />
         <module name="ims-manage-api" />
         <module name="ims-common-log" />
+        <module name="ims-manage-server" />
         <module name="ims-common-core" />
         <module name="ims-project-server" />
       </profile>

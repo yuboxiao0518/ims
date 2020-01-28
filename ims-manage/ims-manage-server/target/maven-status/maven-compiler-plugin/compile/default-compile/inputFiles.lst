@@ -1,0 +1,8 @@
+D:\workspace\ims-manage\ims-manage-server\src\main\java\com\example\ims\manage\ManageApplication.java
+D:\workspace\ims-manage\ims-manage-server\src\main\java\com\example\ims\manage\service\impl\MeetingServiceImpl.java
+D:\workspace\ims-manage\ims-manage-server\src\main\java\com\example\ims\manage\service\MeetingService.java
+D:\workspace\ims-manage\ims-manage-server\src\main\java\com\example\ims\manage\config\ManageMetaObjectHandler.java
+D:\workspace\ims-manage\ims-manage-server\src\main\java\com\example\ims\manage\mapper\MeetingMapper.java
+D:\workspace\ims-manage\ims-manage-server\src\main\java\com\example\ims\manage\service\MessageReceiver.java
+D:\workspace\ims-manage\ims-manage-server\src\main\java\com\example\ims\manage\config\MeetingFeignConfig.java
+D:\workspace\ims-manage\ims-manage-server\src\main\java\com\example\ims\manage\controller\MeetingController.java

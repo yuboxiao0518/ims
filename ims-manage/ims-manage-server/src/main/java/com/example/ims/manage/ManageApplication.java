@@ -9,11 +9,13 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
 
-@SpringBootApplication
 @SpringCloudApplication
 @EnableCaching
-@EnableFeignClients(basePackages = {"com.example.ims.project.api"})
+//首先在启动类上添加@EnableFeignClients注解，并且需要配置上Feign客户端接口的包
+@EnableFeignClients("com.example.ims.project.api.feign")
+@ComponentScan(basePackages = {"com.example.ims"})
 @MapperScan("com.example.ims.manage.mapper")
 public class ManageApplication {
     public static void main(String[] args) {

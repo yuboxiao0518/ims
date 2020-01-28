@@ -39,7 +39,12 @@ public class MeetingController {
     }
 
     @GetMapping("queryUserInfo")
-    public R queryUserInfo(){
+    public Boolean queryUserInfo(){
         return meetingService.queryUserInfo();
+    }
+
+    @GetMapping("getDataSource")
+    public String getDataSource(){
+        return meetingService.getDataSource();
     }
 }

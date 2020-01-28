@@ -6,13 +6,15 @@ import com.example.ims.common.core.util.R;
 import com.example.ims.project.api.feign.factory.RemoteUserServiceFallbackFactory;
 import com.example.ims.project.api.feign.fallback.RemoteUserServiceFallbackImpl;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 
-@FeignClient(contextId ="RemoteUserService",value=ServiceNameConstants.PROJECT_SERVICE,fallback = RemoteUserServiceFallbackImpl.class)
+@FeignClient(contextId ="RemoteUserService",value=ServiceNameConstants.PROJECT_SERVICE,fallbackFactory = RemoteUserServiceFallbackFactory.class)
 public interface RemoteUserService {
 
-    @RequestMapping(method = RequestMethod.GET, value = "/user/info")
-    public R<UserInfo> info();
+    @GetMapping(value = "/user/info")
+    public R info();
+
+    @GetMapping("/config/get")
+    public boolean get();
 }

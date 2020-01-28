@@ -6,17 +6,22 @@ import com.example.ims.project.api.feign.RemoteUserService;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 @Slf4j
-@Service
+@Component
 public class RemoteUserServiceFallbackImpl implements RemoteUserService {
     @Setter
     private Throwable cause;
 
     @Override
-    public R<UserInfo> info() {
+    public R info() {
         log.error("------------------------------------------------------------");
-        return R.failed("失败");
+        return R.failed("请查看网络yuxb:{}"+cause,"失败");
+    }
+
+    @Override
+    public boolean get() {
+        log.error("请求失败");
+        return false;
     }
 }

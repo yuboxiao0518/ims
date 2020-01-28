@@ -12,6 +12,7 @@ import com.example.ims.common.core.util.R;
 import com.example.ims.manage.api.entity.TMdMeeting;
 import com.example.ims.manage.mapper.MeetingMapper;
 import com.example.ims.manage.service.MeetingService;
+import com.example.ims.project.api.feign.RemoteConfigService;
 import com.example.ims.project.api.feign.RemoteMenuService;
 import com.example.ims.project.api.feign.RemoteUserService;
 import lombok.AllArgsConstructor;
@@ -33,6 +34,8 @@ public class MeetingServiceImpl extends ServiceImpl<MeetingMapper, TMdMeeting> i
 
     private final RemoteMenuService remoteMenuService;
 
+    private final RemoteConfigService remoteConfigService;
+
     @Override
     public String info() {
         return "yubx";
@@ -50,8 +53,13 @@ public class MeetingServiceImpl extends ServiceImpl<MeetingMapper, TMdMeeting> i
     }
 
     @Override
-    public R queryUserInfo() {
-        return remoteUserService.info();
+    public Boolean queryUserInfo() {
+        return remoteUserService.get();
+    }
+
+    @Override
+    public String getDataSource() {
+        return remoteConfigService.getDataSource();
     }
 
     @Override

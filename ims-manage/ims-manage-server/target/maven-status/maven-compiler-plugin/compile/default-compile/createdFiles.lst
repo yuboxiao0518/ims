@@ -1,0 +1,8 @@
+com\example\ims\manage\config\MeetingFeignConfig.class
+com\example\ims\manage\mapper\MeetingMapper.class
+com\example\ims\manage\service\impl\MeetingServiceImpl.class
+com\example\ims\manage\service\MessageReceiver.class
+com\example\ims\manage\controller\MeetingController.class
+com\example\ims\manage\service\MeetingService.class
+com\example\ims\manage\config\ManageMetaObjectHandler.class
+com\example\ims\manage\ManageApplication.class

@@ -13,6 +13,8 @@ public interface MeetingService extends IService<TMdMeeting> {
 
     public R queryMenu();
 
-    public R queryUserInfo();
+    public Boolean queryUserInfo();
+
+    public String getDataSource();
 
 }
