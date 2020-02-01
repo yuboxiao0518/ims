@@ -6,20 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ims-admin-server" />
         <module name="ims-project-api" />
+        <module name="ims-manage-server" />
         <module name="ims-manage-api" />
         <module name="ims-common-log" />
-        <module name="ims-manage-server" />
         <module name="ims-common-core" />
+        <module name="ims-admin-api" />
         <module name="ims-project-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="ims" target="1.8" />
+      <module name="ims-admin" target="1.8" />
+      <module name="ims-admin-api" target="1.8" />
+      <module name="ims-admin-server" target="1.8" />
       <module name="ims-common" target="1.8" />
       <module name="ims-common-core" target="1.8" />
       <module name="ims-common-log" target="1.8" />
-      <module name="ims-common-security" target="1.8" />
       <module name="ims-manage" target="1.8" />
       <module name="ims-manage-api" target="1.8" />
       <module name="ims-manage-server" target="1.8" />
@@ -34,7 +38,6 @@
       <module name="ims-common" options="" />
       <module name="ims-common-core" options="" />
       <module name="ims-common-log" options="" />
-      <module name="ims-common-security" options="" />
       <module name="ims-project" options="" />
       <module name="ims-project-api" options="" />
       <module name="ims-project-server" options="" />

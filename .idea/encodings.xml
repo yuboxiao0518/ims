@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ims-admin/ims-admin-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ims-admin/ims-admin-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ims-common/ims-common-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ims-common/ims-common-log/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ims-manage/ims-manage-api/src/main/java" charset="UTF-8" />

@@ -6,118 +6,242 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29a9199b-8a65-4fcd-850a-fac5676535bd" name="Default Changelist" comment="初始化">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ims_manage_api_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_sentinel_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_sentinel_datasource_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_sentinel_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_annotation_aspectj_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_client_default_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_common_default_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_server_default_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_extension_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_parameter_flow_control_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_reactor_adapter_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_spring_webflux_adapter_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_common_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_simple_http_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_web_servlet_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-core/target/ims-common-core.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-core/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-log/target/ims-common-log.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-log/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-log/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-log/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-api/target/ims-manage-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/ims-manage-server.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/feign/RemoteConfigService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/feign/factory/RemoteConfigServiceFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/feign/fallback/RemoteConfigServiceFallbackImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/feign/RemoteConfigService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/feign/factory/RemoteConfigServiceFallbackFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/feign/fallback/RemoteConfigServiceFallbackImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/ims-project-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/CallBackSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/CallBackSender.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/ims-project-server.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/manage-Server/2020-01/debug.2020-01-26.0.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/manage-Server/2020-01/debug.2020-01-27.0.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/project-Server/2020-01/debug.2020-01-26.0.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/project-Server/2020-01/debug.2020-01-27.0.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ims_manage_api_jar/ims-manage-api.jar" afterDir="false" />
+    <list default="true" id="29a9199b-8a65-4fcd-850a-fac5676535bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spullara_mustache_java_compiler_0_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_06.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tdunning_t_digest_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_backward_codecs_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_grouping_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_join_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_memory_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_misc_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial3d_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_extras_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_suggest_7_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_6_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_high_level_client_6_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_transport_6_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_6_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_cli_6_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_core_6_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_secure_sm_6_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_ssl_config_6_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_x_content_6_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_jna_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_aggs_matrix_stats_client_6_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_lang_mustache_client_6_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_parent_join_client_6_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_percolator_client_6_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_rank_eval_client_6_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_reindex_client_6_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_transport_netty4_client_6_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_elasticsearch_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_elasticsearch_3_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-admin/ims-admin-api/ims-admin-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-admin/ims-admin-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/ims-admin-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/AdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/annotation/PassToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/annotation/UserLoginToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/config/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/controller/UserApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/interceptor/AuthenticationInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/TokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/impl/TokenServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/resources/spy.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-admin/ims-admin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-common/ims-common-core/src/main/java/com/example/ims/common/core/config/ELClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-api/src/main/java/com/example/ims/manage/api/entity/IndexPerformance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/controller/IndexPerformanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/mapper/IndexPerformanceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/service/IndexPerformanceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/service/impl/IndexPerformanceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/manage-Server/2020-01/debug.2020-01-28.0.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/project-Server/2020-01/debug.2020-01-28.0.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/project-Server/2020-01/debug.2020-01-29.0.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_core_1_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_1_4_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4241ad68-5c63-4d55-80c5-37ae23ea7947.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4241ad68-5c63-4d55-80c5-37ae23ea7947.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4241ad68-5c63-4d55-80c5-37ae23ea7947/storage_v2/_src_/schema/demoboot.VY8VMw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4241ad68-5c63-4d55-80c5-37ae23ea7947/storage_v2/_src_/schema/demoboot.VY8VMw.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4241ad68-5c63-4d55-80c5-37ae23ea7947/storage_v2/_src_/schema/sakila.oXLGyQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4241ad68-5c63-4d55-80c5-37ae23ea7947/storage_v2/_src_/schema/sakila.oXLGyQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4241ad68-5c63-4d55-80c5-37ae23ea7947/storage_v2/_src_/schema/sys.zb4BAA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4241ad68-5c63-4d55-80c5-37ae23ea7947/storage_v2/_src_/schema/sys.zb4BAA.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ims-common/ims-common-core/ims-common-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-common/ims-common-core/ims-common-core.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ims-common/ims-common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-common/ims-common-core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ims-common/ims-common-log/ims-common-log.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-common/ims-common-log/ims-common-log.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-common/ims-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-common/ims-common.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ims-manage/ims-manage-api/ims-manage-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-manage/ims-manage-api/ims-manage-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-manage/ims-manage-api/src/main/java/com/example/ims/manage/api/entity/TMdMeeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-manage/ims-manage-api/src/main/java/com/example/ims/manage/api/entity/TMdMeeting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-manage/ims-manage-api/target/classes/com/example/ims/manage/api/entity/TMdMeeting.class" beforeDir="false" afterPath="$PROJECT_DIR$/ims-manage/ims-manage-api/target/classes/com/example/ims/manage/api/entity/TMdMeeting.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ims-manage/ims-manage-server/ims-manage-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/ims-manage-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/ManageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/ManageApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/controller/MeetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/controller/MeetingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/service/MeetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/service/MeetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/service/MessageReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/service/MessageReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-manage/ims-manage-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/service/impl/MeetingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/service/impl/MeetingServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/com/example/ims/manage/ManageApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/com/example/ims/manage/ManageApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/com/example/ims/manage/controller/MeetingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/com/example/ims/manage/controller/MeetingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/com/example/ims/manage/service/MeetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/com/example/ims/manage/service/MeetingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/com/example/ims/manage/service/MessageReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/com/example/ims/manage/service/MessageReceiver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/com/example/ims/manage/service/impl/MeetingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ims-manage/ims-manage-server/target/classes/com/example/ims/manage/service/impl/MeetingServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-manage/ims-manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-manage/ims-manage.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/ims-project-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-project/ims-project-api/ims-project-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/config/ProjectFeignConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/feign/RemoteUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/feign/RemoteUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/feign/fallback/RemoteUserServiceFallbackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/feign/fallback/RemoteUserServiceFallbackImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/src/test/java/com/example/ims/project/api/feign/RemoteUserServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/config/ProjectFeignConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/feign/RemoteUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/feign/RemoteUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/feign/fallback/RemoteUserServiceFallbackImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/feign/fallback/RemoteUserServiceFallbackImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/target/test-classes/com/example/ims/project/api/feign/RemoteUserServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-project/ims-project-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-api/src/main/java/com/example/ims/admin/api/entity/SysDept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysDeptRelation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-api/src/main/java/com/example/ims/admin/api/entity/SysDeptRelation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysDict.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-api/src/main/java/com/example/ims/admin/api/entity/SysDict.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-api/src/main/java/com/example/ims/admin/api/entity/SysLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-api/src/main/java/com/example/ims/admin/api/entity/SysMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysOauthClientDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-api/src/main/java/com/example/ims/admin/api/entity/SysOauthClientDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-api/src/main/java/com/example/ims/admin/api/entity/SysRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysRoleDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-api/src/main/java/com/example/ims/admin/api/entity/SysRoleDept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysRoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-api/src/main/java/com/example/ims/admin/api/entity/SysRoleMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-api/src/main/java/com/example/ims/admin/api/entity/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/src/main/java/com/example/ims/project/api/entity/SysUserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-api/src/main/java/com/example/ims/admin/api/entity/SysUserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysDept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysDeptRelation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysDict.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysOauthClientDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysRoleDept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysRoleMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-api/target/classes/com/example/ims/project/api/entity/SysUserRole.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/ims-project-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-project/ims-project-server/ims-project-server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-project/ims-project-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/ImsProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/ImsProjectApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/ConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/ConfigController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/ImsProjectApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/ImsProjectApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/ConfigController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/ConfigController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-project/ims-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-project/ims-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims-project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-project/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ims.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ims.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/config/MybatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/BaseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/ConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/controller/ConfigController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/controller/DeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/DictController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/controller/DictController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/controller/LogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/controller/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/OauthClientDetailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/controller/OauthClientDetailsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/dto/DeptTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/dto/DeptTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/dto/MenuTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/dto/MenuTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/dto/RoleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/dto/RoleDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/dto/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/dto/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/dto/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/dto/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/mapper/SysDeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/mapper/SysDeptMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/mapper/SysDeptRelationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/mapper/SysDeptRelationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/mapper/SysDictMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/mapper/SysDictMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/mapper/SysLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/mapper/SysLogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/mapper/SysMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/mapper/SysMenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/mapper/SysOauthClientDetailsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/mapper/SysOauthClientDetailsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/mapper/SysRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/mapper/SysRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/mapper/SysRoleMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/mapper/SysRoleMenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/mapper/SysUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/mapper/SysUserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/mapper/SysUserRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/SysDeptRelationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/SysDeptRelationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/SysDeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/SysDeptService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/SysDictService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/SysDictService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/SysLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/SysLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/SysMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/SysMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/SysOauthClientDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/SysOauthClientDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/SysRoleMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/SysRoleMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/SysRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/SysUserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/SysUserRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/SysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/impl/SysDeptRelationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/impl/SysDeptRelationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/impl/SysDeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/impl/SysDeptServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/impl/SysDictServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/impl/SysDictServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/impl/SysLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/impl/SysLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/impl/SysMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/impl/SysOauthClientDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/impl/SysOauthClientDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/impl/SysRoleMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/impl/SysUserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/vo/ImageCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/vo/ImageCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/vo/LogVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/vo/LogVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/vo/MenuVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/vo/MenuVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/vo/TreeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/vo/TreeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/vo/UserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/com/example/ims/project/mapper/SysDeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/resources/mapper/SysDeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/com/example/ims/project/mapper/SysDeptRelationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/resources/mapper/SysDeptRelationMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/com/example/ims/project/mapper/SysDictMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/resources/mapper/SysDictMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/com/example/ims/project/mapper/SysLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/resources/mapper/SysLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/com/example/ims/project/mapper/SysMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/resources/mapper/SysMenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/com/example/ims/project/mapper/SysOauthClientDetailsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/resources/mapper/SysOauthClientDetailsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/com/example/ims/project/mapper/SysRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/resources/mapper/SysRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/com/example/ims/project/mapper/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/src/main/resources/com/example/ims/project/mapper/SysUserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/resources/mapper/SysUserRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/config/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/BaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/ConfigController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/DeptController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/DictController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/LogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/MenuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/OauthClientDetailsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/RoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/dto/DeptTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/dto/MenuTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/dto/RoleDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/dto/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/dto/UserDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/dto/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysDeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysDeptRelationMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysDictMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysLogMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysMenuMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysOauthClientDetailsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysRoleMenuMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/mapper/SysUserRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/SysDeptRelationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/SysDeptService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/SysDictService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/SysLogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/SysMenuService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/SysOauthClientDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/SysRoleMenuService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/SysRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/SysUserRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/SysUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/impl/SysDeptRelationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/impl/SysDeptServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/impl/SysDictServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/impl/SysLogServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/impl/SysMenuServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/impl/SysOauthClientDetailsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/impl/SysRoleMenuServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/impl/SysRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/impl/SysUserRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/service/impl/SysUserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/vo/ImageCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/vo/LogVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/vo/MenuVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/vo/TreeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ims-project/ims-project-server/target/classes/com/example/ims/project/vo/UserVO.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/manage-Server/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/manage-Server/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/manage-Server/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/manage-Server/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/project-Server/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/project-Server/debug.log" afterDir="false" />
@@ -172,8 +296,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -230,11 +355,12 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/resources/mapper" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -248,24 +374,24 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\openproject\ims\ims-manage\ims-manage-server\src\main\resources" />
-      <recent name="D:\openproject\ims\ims-project\ims-project-server\src\main\resources" />
-      <recent name="D:\openproject\ims\ims-project\ims-project-api\src\main\java" />
-      <recent name="D:\openproject\ims\ims-project\ims-project-server\src\main\java" />
-      <recent name="D:\openproject\ims\ims-project\src\main\resources" />
+      <recent name="D:\workspace\ims-admin\ims-admin-server\src\main\resources\mapper" />
+      <recent name="D:\workspace\ims-admin\ims-admin-server\src\main\java\com\example\ims\admin\controller" />
+      <recent name="D:\workspace\ims-admin\ims-admin-server\src\main\java\com\example\ims\admin\service\impl" />
+      <recent name="D:\workspace\ims-admin\ims-admin-server\src\main\java\com\example\ims\admin\service" />
+      <recent name="D:\workspace\ims-admin\ims-admin-api\src\main\java\com\example\ims\admin\api\entity" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.ims.admin.api.entity" />
+      <recent name="com.example.ims.admin.vo" />
+      <recent name="com.example.ims.admin.mapper" />
       <recent name="com.example.ims.common.core.config" />
       <recent name="com.example.ims.common.security.annotation" />
-      <recent name="com.example.ims.common.security.service" />
-      <recent name="com.example.ims.common.security.util" />
-      <recent name="com.example.ims.common.log.annotation" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.imsproject.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ImsProjectApplication (3)">
+  <component name="RunManager" selected="Spring Boot.AdminApplication">
     <configuration name="RemoteConfigServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ims-project-api" />
       <extension name="coverage">
@@ -296,18 +422,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoteUserServiceTest.info" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ims-project-api" />
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ims-admin-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.ims.project.api.feign.*" />
+          <option name="PATTERN" value="com.example.ims.admin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.ims.project.api.feign" />
-      <option name="MAIN_CLASS_NAME" value="com.example.ims.project.api.feign.RemoteUserServiceTest" />
-      <option name="METHOD_NAME" value="info" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ims.admin.AdminApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -375,11 +498,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ImsProjectApplication (3)" />
+        <item itemvalue="Spring Boot.AdminApplication" />
         <item itemvalue="Spring Boot.ManageApplication" />
+        <item itemvalue="Spring Boot.ImsProjectApplication (3)" />
         <item itemvalue="JUnit.RemoteConfigServiceTest" />
         <item itemvalue="JUnit.RemoteUserServiceTest" />
-        <item itemvalue="JUnit.RemoteUserServiceTest.info" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +554,13 @@
       <workItem from="1580093694342" duration="10471000" />
       <workItem from="1580190853390" duration="10112000" />
       <workItem from="1580210791135" duration="4037000" />
-      <workItem from="1580217504611" duration="4226000" />
+      <workItem from="1580217504611" duration="4945000" />
+      <workItem from="1580264661820" duration="712000" />
+      <workItem from="1580393712741" duration="2983000" />
+      <workItem from="1580453048825" duration="300000" />
+      <workItem from="1580453361156" duration="6497000" />
+      <workItem from="1580479908484" duration="2703000" />
+      <workItem from="1580522208763" duration="10343000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1580028786106</created>
@@ -447,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580049363141</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="初始化">
+      <created>1580221842132</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580221842132</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,32 +603,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1579254670936" />
-    <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579144931812">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="451" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580474846412">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1579144931812" />
+    <state x="451" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580474846412" />
     <state x="511" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579143675018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="511" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1579143675018" />
-    <state x="718" y="153" key="#com.intellij.ide.util.MemberChooser" timestamp="1580221095447">
+    <state x="718" y="153" key="#com.intellij.ide.util.MemberChooser" timestamp="1580528445335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1579253596565" />
-    <state x="718" y="153" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580221095447" />
+    <state x="718" y="153" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580528445335" />
     <state x="412" y="331" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578903429528">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="412" y="331" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1578903429528" />
-    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578557198394">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="624" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580524965822">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1578557198394" />
-    <state x="310" y="13" key="CommitChangelistDialog2" timestamp="1580221712498">
+    <state x="624" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580524965822" />
+    <state x="310" y="13" key="CommitChangelistDialog2" timestamp="1580221840028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="248" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580028765638" />
-    <state x="310" y="13" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580221712498" />
+    <state x="310" y="13" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580221840028" />
     <state x="686" y="216" key="FileChooserDialogImpl" timestamp="1580029664444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -502,90 +640,94 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="593" y="327" width="373" height="170" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1580028456855" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1580221566998">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1580533377461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579571579412" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580221566998" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1580221566997">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580533377461" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1580533377461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579571579412" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580221566997" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1580221566997">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580533377461" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1580533377461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579571579412" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580221566997" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1580221566998">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580533377461" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1580533377461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579571579412" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580221566998" />
-    <state width="1877" height="281" key="GridCell.Tab.1.bottom" timestamp="1580221567001">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580533377461" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1580533358133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579571579412" />
-    <state width="1877" height="281" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580221567001" />
-    <state width="1877" height="281" key="GridCell.Tab.1.center" timestamp="1580221567001">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580533358133" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1580533358133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1579571579412" />
-    <state width="1877" height="281" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580221567001" />
-    <state width="1877" height="281" key="GridCell.Tab.1.left" timestamp="1580221567000">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580533358133" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1580533358133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1579571579412" />
-    <state width="1877" height="281" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580221567000" />
-    <state width="1877" height="281" key="GridCell.Tab.1.right" timestamp="1580221567001">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580533358133" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1580533358133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1579571579412" />
-    <state width="1877" height="281" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580221567001" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1580197048645">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580533358133" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1580533137680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579431920076" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580197048645" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1580197048645">
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580533137680" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1580533137680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1579431920076" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580197048645" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1580197048645">
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580533137680" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1580533137679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1579431920076" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580197048645" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1580197048645">
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580533137679" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1580533137680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1579431920076" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580197048645" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580533137680" />
     <state x="374" y="90" key="Maven.ArtifactSearchDialog" timestamp="1580217815423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="299" y="71" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1578995274083" />
     <state x="374" y="90" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580217815423" />
-    <state x="340" y="0" key="SettingsEditor" timestamp="1580217491834">
+    <state x="531" y="182" key="Registry" timestamp="1580479811614">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="531" y="182" key="Registry/0.0.1920.1040@0.0.1920.1040" timestamp="1580479811614" />
+    <state x="340" y="0" key="SettingsEditor" timestamp="1580535084113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579081583910" />
-    <state x="340" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580217491834" />
+    <state x="340" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580535084113" />
     <state width="529" height="446" key="SwitcherDM" timestamp="1579571349835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="529" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1579571349835" />
-    <state x="451" y="188" key="Vcs.Push.Dialog.v2" timestamp="1580221732466">
+    <state x="451" y="188" key="Vcs.Push.Dialog.v2" timestamp="1580221850493">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580028993749" />
-    <state x="451" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580221732466" />
-    <state x="576" y="304" key="com.intellij.ide.util.TipDialog" timestamp="1580217535672">
+    <state x="451" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580221850493" />
+    <state x="576" y="304" key="com.intellij.ide.util.TipDialog" timestamp="1580535241150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579416781085" />
-    <state x="576" y="304" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580217535672" />
+    <state x="576" y="304" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580535241150" />
     <state x="988" y="180" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580217575663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -600,14 +742,16 @@
     </state>
     <state x="481" y="215" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1580029004596" />
     <state x="601" y="271" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580221781339" />
-    <state x="298" y="140" key="new project wizard" timestamp="1579143315244">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="373" y="177" key="new project wizard" timestamp="1580523869499">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="298" y="140" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1579143315244" />
-    <state x="472" y="45" key="refactoring.ChangeSignatureDialog" timestamp="1578903559521">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="373" y="177" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1580523869499" />
+    <state x="590" y="57" key="refactoring.ChangeSignatureDialog" timestamp="1580525300692">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="472" y="45" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1578903559521" />
+    <state x="590" y="57" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580525300692" />
     <state x="539" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1580220509133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -621,6 +765,16 @@
           <url>file://$PROJECT_DIR$/ims-project/ims-project-server/src/main/java/com/example/ims/project/service/CallBackSender.java</url>
           <line>24</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ims-manage/ims-manage-server/src/main/java/com/example/ims/manage/service/impl/IndexPerformanceServiceImpl.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ims-admin/ims-admin-server/src/main/java/com/example/ims/admin/controller/UserApi.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

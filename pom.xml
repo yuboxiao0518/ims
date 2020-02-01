@@ -20,6 +20,7 @@
         <module>ims-project</module>
         <module>ims-common</module>
         <module>ims-manage</module>
+        <module>ims-admin</module>
     </modules>
 
     <properties>

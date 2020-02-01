@@ -1,13 +1,7 @@
 package com.example.ims.manage.service.impl;
 
-import cn.hutool.cache.Cache;
-import cn.hutool.cache.CacheUtil;
-import cn.hutool.poi.excel.ExcelReader;
-import cn.hutool.poi.excel.ExcelUtil;
-import cn.hutool.system.UserInfo;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.ims.common.core.config.RedisTemplateConfig;
 import com.example.ims.common.core.util.R;
 import com.example.ims.manage.api.entity.TMdMeeting;
 import com.example.ims.manage.mapper.MeetingMapper;
@@ -18,10 +12,11 @@ import com.example.ims.project.api.feign.RemoteUserService;
 import lombok.AllArgsConstructor;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
+import org.springframework.data.elasticsearch.core.ElasticsearchOperations;
+import org.springframework.data.elasticsearch.core.query.GetQuery;
+import org.springframework.data.elasticsearch.core.query.SearchQuery;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.GetMapping;
 
-import java.io.File;
 import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
@@ -35,6 +30,8 @@ public class MeetingServiceImpl extends ServiceImpl<MeetingMapper, TMdMeeting> i
     private final RemoteMenuService remoteMenuService;
 
     private final RemoteConfigService remoteConfigService;
+
+    private final ElasticsearchOperations elasticsearchOperations;
 
     @Override
     public String info() {
@@ -72,5 +69,12 @@ public class MeetingServiceImpl extends ServiceImpl<MeetingMapper, TMdMeeting> i
     @CacheEvict(value = "meeting_details",allEntries = true)
     public boolean removeByMap(Map<String, Object> columnMap) {
         return super.removeByMap(columnMap);
+    }
+
+
+    public List<String> getLog(){
+        List<String> strings = elasticsearchOperations.queryForIds((SearchQuery) GetQuery.getById(""));
+//        SysUser sysUser = elasticsearchOperations.queryForObject(GetQuery.getById(""), SysUser.class);
+        return strings;
     }
 }

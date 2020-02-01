@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ims.iml" filepath="$PROJECT_DIR$/ims.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ims-admin/ims-admin.iml" filepath="$PROJECT_DIR$/ims-admin/ims-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ims-admin/ims-admin-api/ims-admin-api.iml" filepath="$PROJECT_DIR$/ims-admin/ims-admin-api/ims-admin-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ims-admin/ims-admin-server/ims-admin-server.iml" filepath="$PROJECT_DIR$/ims-admin/ims-admin-server/ims-admin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/ims-common/ims-common.iml" filepath="$PROJECT_DIR$/ims-common/ims-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/ims-common/ims-common-core/ims-common-core.iml" filepath="$PROJECT_DIR$/ims-common/ims-common-core/ims-common-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/ims-common/ims-common-log/ims-common-log.iml" filepath="$PROJECT_DIR$/ims-common/ims-common-log/ims-common-log.iml" />
